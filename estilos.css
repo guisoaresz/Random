@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    font-family: "Poppins";
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 1rem;
+    margin: 15px 0;
+}
+
+.card-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: 100%;
+}
+
+.card-foto {
+    height: 225px;
+    width: 200px;
+}
+
+.card-foto img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+}
+
+#card-random-name {
+    font-weight: bold;
+}
+
+.card-right-content {
+    padding: 15px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.gerar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.gerar button {
+    height: 30px;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.gerar button:hover {
+    cursor: grabbing;
+    background-color: aquamarine;
+    transition: background-color 1s;
+}
